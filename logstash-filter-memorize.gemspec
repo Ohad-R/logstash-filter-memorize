@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.metadata = { "logstash_plugin" => "true", "logstash_group" => "filter" }
 
   # Gem dependencies
-  s.add_runtime_dependency "logstash-core", '>= 5.0.0', '< 6.0.0'
+  s.add_runtime_dependency "logstash-core", '>= 5.0.0', '< 7.8.1'
   s.add_development_dependency 'logstash-devutils'
 end
